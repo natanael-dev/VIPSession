@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A215F951299DC6F100099951 /* VIPCleanSwift.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A215F950299DC6F100099951 /* VIPCleanSwift.jpeg */; };
 		A25665C829948183009C4A58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25665C729948183009C4A58 /* AppDelegate.swift */; };
 		A25665CA29948183009C4A58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25665C929948183009C4A58 /* SceneDelegate.swift */; };
 		A25665CF29948183009C4A58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A25665CD29948183009C4A58 /* Main.storyboard */; };
@@ -17,7 +18,6 @@
 		A25665EC29948184009C4A58 /* VIPSessionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25665EB29948184009C4A58 /* VIPSessionUITests.swift */; };
 		A25665EE29948184009C4A58 /* VIPSessionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25665ED29948184009C4A58 /* VIPSessionUITestsLaunchTests.swift */; };
 		A25666012994837F009C4A58 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25665FF2994837F009C4A58 /* ListViewController.swift */; };
-		A25666022994837F009C4A58 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A25666002994837F009C4A58 /* ListViewController.xib */; };
 		A2566604299483AE009C4A58 /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2566603299483AE009C4A58 /* ListPresenter.swift */; };
 		A2566606299483B4009C4A58 /* ListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2566605299483B4009C4A58 /* ListInteractor.swift */; };
 		A256660829948476009C4A58 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A256660729948476009C4A58 /* ListModel.swift */; };
@@ -56,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A215F950299DC6F100099951 /* VIPCleanSwift.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VIPCleanSwift.jpeg; sourceTree = "<group>"; };
 		A25665C429948183009C4A58 /* VIPSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A25665C729948183009C4A58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A25665C929948183009C4A58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,7 +71,6 @@
 		A25665EB29948184009C4A58 /* VIPSessionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPSessionUITests.swift; sourceTree = "<group>"; };
 		A25665ED29948184009C4A58 /* VIPSessionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPSessionUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A25665FF2994837F009C4A58 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
-		A25666002994837F009C4A58 /* ListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
 		A2566603299483AE009C4A58 /* ListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
 		A2566605299483B4009C4A58 /* ListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInteractor.swift; sourceTree = "<group>"; };
 		A256660729948476009C4A58 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
@@ -202,7 +202,6 @@
 				A2566603299483AE009C4A58 /* ListPresenter.swift */,
 				A256660A299484AD009C4A58 /* ListRouter.swift */,
 				A25665FF2994837F009C4A58 /* ListViewController.swift */,
-				A25666002994837F009C4A58 /* ListViewController.xib */,
 			);
 			path = ListModule;
 			sourceTree = "<group>";
@@ -210,6 +209,7 @@
 		A25665FE29948348009C4A58 /* Tools+Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A215F950299DC6F100099951 /* VIPCleanSwift.jpeg */,
 				A256660E299497EB009C4A58 /* Log.swift */,
 			);
 			path = "Tools+Resources";
@@ -364,8 +364,8 @@
 				A25665D729948184009C4A58 /* LaunchScreen.storyboard in Resources */,
 				A2594A9F2997D99A003557A6 /* DetailViewController.xib in Resources */,
 				A2594A9B29970F34003557A6 /* PokemonTableViewCell.xib in Resources */,
+				A215F951299DC6F100099951 /* VIPCleanSwift.jpeg in Resources */,
 				A25665D429948184009C4A58 /* Assets.xcassets in Resources */,
-				A25666022994837F009C4A58 /* ListViewController.xib in Resources */,
 				A25665CF29948183009C4A58 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
